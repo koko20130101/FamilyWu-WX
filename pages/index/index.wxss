@@ -1,0 +1,92 @@
+/**index.wxss**/
+.root-system{
+  line-height: 200%;
+  padding:0 0 30rpx 0;
+}
+.search{
+  width: 90%;
+  margin-bottom:30rpx;
+  display: flex;
+  border:1rpx solid #c8c7cc;
+  border-radius: 12rpx;
+  align-items:center;
+}
+.wu-cell{
+  flex: 1;
+}
+.wu-input{
+  padding-left:24rpx
+}
+.member-list{
+  padding:20rpx;
+  text-align: center;
+}
+.level{
+  margin-bottom:20rpx
+}
+.level-name{
+  text-align: center;
+  padding:5px 0;
+  border: 1px solid  #d12c2c;
+  position: relative;
+  margin-bottom:20rpx;
+}
+.level-name i {
+    width: 6px;
+    height: 6px;
+    border: 1px solid;
+    position: absolute;
+}
+.level-name i:before {
+    content: '';
+    width:4px;
+    height:4px;
+    border: 1px solid #d12c2c;
+    position: absolute;
+}
+.level-name .zs-1 {
+  left: -1px;
+  top: -1px;
+  border-color: #fff #d12c2c #d12c2c #fff;
+}
+.level-name .zs-1:before{
+  right: -6px;
+  bottom: -6px;
+}
+.level-name .zs-2 {
+  right: -1px;
+  top: -1px;
+  border-color: #fff #fff #d12c2c #d12c2c;
+}
+.level-name .zs-2:before{
+  left: -6px;
+  bottom: -6px;
+}
+.level-name .zs-3 {
+  left: -1px;
+  bottom: -1px;
+  border-color: #d12c2c #d12c2c #fff #fff;
+}
+.level-name .zs-3:before{
+  right: -6px;
+  top: -6px;
+}
+.level-name .zs-4 {
+  right: -1px;
+  bottom: -1px;
+  border-color: #d12c2c #fff #fff #d12c2c;
+}
+.level-name .zs-4:before{
+  left: -6px;
+  top: -6px;
+}
+.member{
+  display:inline-block;
+  border:1px solid #f28a8a;
+  padding: 3px 5px;
+  margin: 10px 5px 0 0;
+  color:#444;
+}
+.die{
+  border:1px dashed #e6e6e6
+}

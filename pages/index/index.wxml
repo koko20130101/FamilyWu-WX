@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="root-system">
+    <view>吴海谷志善庆庭，</view>
+    <view>振林道义有宝宗。</view>
+    <view>炳作敏学承继祖，</view>
+    <view>琴棋绍秀胜长峰。</view>
+  </view>
+  <view class="search">
+    <view class="wu-cell">
+        <input class="wu-input" auto-focus placeholder="请输入姓名查询是否在族谱中"/>
+      </view>
+      <view>
+        <button type="warn">查 询</button>
+      </view>
+  </view>
+  <view class="member-list">
+    <view class="level"  wx:for="{{membersList}}" wx:for-item="level">
+      <view class="level-name">
+        {{level.levelName}}
+        <i class="zs-1"></i>
+        <i class="zs-2"></i>
+        <i class="zs-3"></i>
+        <i class="zs-4"></i>
+      </view>
+      <text wx:for="{{level.members}}" wx:for-item="member" class="member {{member.alive ? '':'die'}}">{{member.name}}</text>
+    </view>
+  </view>
+</view>

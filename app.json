@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d12c2c",
+    "navigationBarTitleText": "吴氏三冬族谱",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "selectedColor":"#d12c2c",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "iconPath":"./static/img/family.png",
+      "selectedIconPath": "./static/img/family_act.png",
+      "text":"族谱"
+    },{
+      "pagePath": "pages/user/user",
+      "iconPath": "./static/img/home.png",
+      "selectedIconPath": "./static/img/home_act.png",
+      "text":"我家"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
